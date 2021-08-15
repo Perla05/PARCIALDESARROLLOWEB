@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {CabeceraModule} from "./cabecera/cabecera.module";
 import {SidebarModule} from "./sidebar/sidebar.module";
+import {PrincipalModule} from "./principal/principal.module";
 
 
 
@@ -14,7 +15,8 @@ import {SidebarModule} from "./sidebar/sidebar.module";
   imports: [
     BrowserModule,
     CabeceraModule,
-    SidebarModule
+    SidebarModule,
+    PrincipalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
