@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 200vh;
+  background-color: #fff;
+}
+
+.navbar {
+  width: 405px;
+  height: 200vh;
+  position: fixed;
+  background-color: black;
+  transition: 0.4s;
+}
+.nav_link{
+  font-size: 1.25em;
+}
+
+
+

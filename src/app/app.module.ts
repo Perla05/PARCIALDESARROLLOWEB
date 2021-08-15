@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {CabeceraModule} from "./cabecera/cabecera.module";
+import {SidebarModule} from "./sidebar/sidebar.module";
+
 
 
 @NgModule({
@@ -11,7 +13,8 @@ import {CabeceraModule} from "./cabecera/cabecera.module";
   ],
   imports: [
     BrowserModule,
-    CabeceraModule
+    CabeceraModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
