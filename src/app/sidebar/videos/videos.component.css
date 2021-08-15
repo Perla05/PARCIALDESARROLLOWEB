@@ -5,19 +5,19 @@
 }
 
 body{
-  min-height: 200vh;
+  min-height: 50vh;
   background-color: #fff;
 }
 
 .navbar {
   width: 405px;
-  height: 200vh;
+  height: 50vh;
   position: fixed;
   background-color: black;
-  transition: 0.4s;
+  transition: 0.1s;
 }
 .nav_link{
-  font-size: 1.25em;
+  font-size: 1.10em;
 }
 
 
