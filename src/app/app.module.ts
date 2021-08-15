@@ -6,6 +6,8 @@ import {CabeceraModule} from "./cabecera/cabecera.module";
 import {SidebarModule} from "./sidebar/sidebar.module";
 import {PrincipalModule} from "./principal/principal.module";
 import {FooterModule} from "./footer/footer.module";
+import {ModalModule} from "./modal/modal.module";
+
 
 
 
@@ -18,7 +20,8 @@ import {FooterModule} from "./footer/footer.module";
     CabeceraModule,
     SidebarModule,
     PrincipalModule,
-    FooterModule
+    FooterModule,
+    ModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]

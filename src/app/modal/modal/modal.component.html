@@ -1,0 +1,43 @@
+<ng-template #elon let-modal>
+  <div class="modal-header" >
+    <img src="assets/images/elon.png" alt="elon" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> hola</p>
+  </div>
+</ng-template>
+
+<ng-template #video2 let-modal>
+  <div class="modal-header" >
+    <img src="assets/images/video2.png" alt="video2" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> hola</p>
+  </div>
+</ng-template>
+
+<ng-template #video3 let-modal>
+  <div class="modal-header" >
+    <img src="assets/images/video3.png" alt="video3" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> hola</p>
+  </div>
+</ng-template>
+
+<div class="row">
+  <div>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(elon)"> <img src="assets/images/elon.png" alt="elon"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(video2)"> <img src="assets/images/video2.png" alt="video2"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(video3)"> <img src="assets/images/video2.png" alt="video3"></span>
+  </div>
+</div>

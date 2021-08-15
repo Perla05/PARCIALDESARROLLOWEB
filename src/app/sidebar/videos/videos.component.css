@@ -10,9 +10,8 @@ body{
 }
 
 .navbar {
-  width: 405px;
-  height: 50vh;
-  position: fixed;
+  width: 305px;
+  height: 60vh;
   background-color: black;
   transition: 0.1s;
 }
